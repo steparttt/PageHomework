@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+#rotating-image {
+    transition: transform 0.3s;
+}
+
+#rotating-image:hover {
+    transform: scale(1.2);
+}
+
+.image-text {
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    color: white;
+    font-size: 50px;
+    z-index: 1;
+    font-family: Doto, sans-serif;
+    transition: 0.7s ease;
+    filter: drop-shadow(0 0 10px #ffffff);
+}
+.image-text:hover{
+    transform: scale(1.1);
+  }
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 25%;
+    filter: drop-shadow(0 0 10px #000);
+   
+   
+}
+
+body {
+    
+    
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(-45deg, #ec0958, #df3d4d,#26be2e);
+    background-size: 180% 100%;
+    overflow: hidden;
+}
